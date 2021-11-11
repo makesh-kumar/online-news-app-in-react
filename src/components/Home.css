@@ -1,0 +1,21 @@
+.home-container {
+  margin: 20px;
+  display: flex;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+.news-item {
+  flex-basis: 300px;
+}
+.loading-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
