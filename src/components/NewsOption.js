@@ -106,8 +106,10 @@ function NewsOption(props) {
             label="Age"
             onChange={handleCategoryChange}
           >
-            {newsOptionsData.map((type) => (
-              <MenuItem value={type.value}>{type.label}</MenuItem>
+            {newsOptionsData.map((type, i) => (
+              <MenuItem key={i} value={type.value}>
+                {type.label}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
@@ -123,8 +125,10 @@ function NewsOption(props) {
             label="Age"
             onChange={handleCountryChange}
           >
-            {countryOptionsData.map((country) => (
-              <MenuItem value={country.value}>{country.label}</MenuItem>
+            {countryOptionsData.map((country, i) => (
+              <MenuItem key={i} value={country.value}>
+                {country.label}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>

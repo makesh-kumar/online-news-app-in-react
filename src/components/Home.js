@@ -56,7 +56,7 @@ function Home() {
   };
   return (
     <>
-      <div className="footer">
+      <div>
         <AppBar>
           <Toolbar>
             <Typography variant="h6" component="div">
@@ -75,9 +75,9 @@ function Home() {
       ) : null}
       <div className="home-container">
         {newsData &&
-          newsData.map((data) => {
+          newsData.map((data, i) => {
             return (
-              <div className="news-item">
+              <div key={i} className="news-item">
                 <NewsCard {...data} />
               </div>
             );

@@ -1,15 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./components/Home";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
+
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Home />
-      
+      <Footer />
     </div>
   );
 }

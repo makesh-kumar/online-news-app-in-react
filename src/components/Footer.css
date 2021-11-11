@@ -1,0 +1,32 @@
+.footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1976d2;
+}
+
+.text-content {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.icon-btn {
+  height: 25px;
+}
+.icon-btn:hover {
+  color: black !important;
+}
+
+.icons-list {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-evenly;
+}
+.icon {
+  width: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
