@@ -8,14 +8,19 @@ import TextField from "@mui/material/TextField";
 import "./NewsOption.css";
 
 function NewsOption(props) {
-  const [category, setCategory] = useState("headlines");
+  // const [category, setCategory] = useState("headlines");
+  const [category, setCategory] = useState("general");
   const [country, setCountry] = useState("in");
   const [keyWords, setkeyWords] = useState("");
 
   const newsOptionsData = [
+    // {
+    //   label: "Headlines",
+    //   value: "headlines",
+    // },
     {
-      label: "Headlines",
-      value: "headlines",
+      label: "General",
+      value: "general",
     },
     {
       label: "Business",
@@ -25,10 +30,10 @@ function NewsOption(props) {
       label: "Entertainment",
       value: "entertainment",
     },
-    {
-      label: "General",
-      value: "general",
-    },
+    // {
+    //   label: "General",
+    //   value: "general",
+    // },
     {
       label: "Health",
       value: "health",
