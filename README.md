@@ -1,4 +1,5 @@
 This is a small news application developed on React
+I have used https://newsapi.org/ to get data
 
 Live :- https://news-app-makesh.netlify.app/
 
