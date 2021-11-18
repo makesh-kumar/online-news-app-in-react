@@ -1,3 +1,4 @@
+## online-news-app-in-react
 This is a small news application developed on React,
 I have used https://newsapi.org/ to get data
 
